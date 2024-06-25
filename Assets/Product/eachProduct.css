@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+h1{
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.eachProducts{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    border: 1px solid black;
+    margin: 50px;
+}
+
+#pDescription{
+    position: relative;
+    top: 100px;
+}
+
+button{
+    position: relative;
+    top: 200px;
+    right: 0;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
